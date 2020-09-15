@@ -1,0 +1,15 @@
+<style.css> 
+body {
+	background colour: magenta;
+}
+
+h1 {
+	colour: white;
+	text-align: center;
+}
+h2
+
+p {
+	font-family:verdana;
+	font-size:20px;
+}

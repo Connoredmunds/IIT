@@ -1,4 +1,17 @@
 <style.css> 
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,en,img,ins,kbd,q,samp
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+display:block;	
+}
+
+html, body {background: #000000; font}
 body {
 	background colour: magenta;
 }
@@ -7,7 +20,12 @@ h1 {
 	colour: white;
 	text-align: center;
 }
-h2
+h2 {
+	colour:
+	font-family:
+	font-size:
+
+}
 
 p {
 	font-family:verdana;

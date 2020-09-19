@@ -1,0 +1,204 @@
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+html, body {background: #C70039; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #50AAA9;}
+
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #030202;
+}
+
+#cv {
+	width: 90%;
+	max-width: 1080px;
+	background: ##E59C67;
+	margin: 30px auto;
+}
+
+.mainDetails {
+	padding: 25px 25px;
+	border-bottom: 2px solid #000000;
+	border-top: 2px solid #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	background: #CB4427;
+}
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-top: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#headshot {
+	width: 12.5%;
+	margin-right: 30px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	bords: 50px;
+}
+
+#name {
+	float: top;
+}
+
+#contactInfo {
+	float: left;
+}
+
+#contactInfo ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#contactInfo ul li {
+	margin-bottom: 3px;
+	color: #0B132B;
+}
+
+#contactInfo ul li a, a[href^=tel] {
+	color: #0B132B;
+	text-decoration: none;
+}
+
+#contactInfo ul li a:hover {
+	color: #6FFFE9;
+}
+#mainArea {
+	colour:#E59C67
+}
+
+section {
+	border-top: 1px solid #5BC0BE;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 50px;
+}
+
+.paraTitle {
+	float: left;
+	width: 40%;
+	padding-top: 40px;
+}
+
+.paraContent {
+	float: right;
+	width: 60%;
+	padding-top:-20px;
+}
+
+.paraTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: ##FF5733;
+}
+
+.paraTitle img {
+	width: 100%;
+}
+
+.paraContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.paraContent h3 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.1em;
+	margin-bottom: -2px;
+}
+
+.paraContent img {
+	border: 2px solid #FF5733;
+}
+
+.subInfo {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+	}
+}
+
+@media all and (max-width: 601px) {
+	#cv {
+		width: 95%;
+		margin: 10px auto;
+		min-width: 280px;
+	}
+
+	#name, #contactInfo {
+		float: right;
+		width: 100%;
+		text-align: right;
+	}
+	
+	#headshot {
+		width: 400;
+		height: 400;
+		border-radius: 10px;
+
+	}
+
+	.paraTitle, .paraContent {
+		float: none;
+		width: 100%;
+	}
+
+	.paraTitle {
+		margin-left: -2px;
+		font-size: 1.25em;
+
+	}
+}
+
+@media all and (max-width: 480px) {
+	.mainDetails {
+		padding: 15px 15px;
+	}
+
+	section {
+		padding: 15px 0 0;
+	}
+
+	#mainArea {
+		padding: 0 25px;
+	}
